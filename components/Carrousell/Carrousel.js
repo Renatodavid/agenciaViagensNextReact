@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Carrousel() {
   return (
-    <div>
+    
 <>
   <div className=" container-fluid text-center my-4">
     <h1>Pacotes especiais </h1>
@@ -76,6 +76,6 @@ export default function Carrousel() {
 
 
 
-    </div>
+    
   )
 }

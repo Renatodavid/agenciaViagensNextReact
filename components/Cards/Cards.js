@@ -4,6 +4,8 @@ export default function Cards() {
   return (
 
 <>
+{/* cards Index */}
+
   <div className=" container-fluid text-center my-4">
     <h1>Principais pacotes </h1>
   </div>
