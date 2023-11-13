@@ -1,6 +1,7 @@
 
 import Cards from '@/components/Cards/Cards'
-import Carrousel from '@/components/Carrousell/Carrousel'
+import CardsIndex from '@/components/Cards/CardsIndex';
+import Carrousel from '@/components/Carrousell/CarrouselIndex'
 
 import Script from 'next/script'
 
@@ -18,8 +19,8 @@ export default function Home() {
       <Cards />
 
 
-     
-
+     <CardsIndex/>
+      
       <Script />
     </div>
 
