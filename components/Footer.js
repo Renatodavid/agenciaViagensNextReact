@@ -1,19 +1,20 @@
 import React from 'react'
-
+import footerCss from '@/styles/Footer.module.css'
 
 export default function footer() {
     return (
 
 
-        <footer id="footerdestino">
+        <footer id={footerCss.footerdestino}>
             <div className="container-fluid row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-3">
                 <div className="col text-center" id="contact-info">
                     <div className="footer-brand mt-1">
                         <a className="navbar-brand" href="#">
                             <img
-                                className="img-fluid st teste-img"
+                                className=" st teste-img"
                                 src="img/logo_branco.png"
                                 alt="logo do projeto"
+                              
                                
                             />
                         </a>
@@ -58,5 +59,5 @@ export default function footer() {
         </footer>
 
 
-    )
+    );
 }

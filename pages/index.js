@@ -1,32 +1,33 @@
 
-
-import { Inter } from 'next/font/google'
-import Head from '@/components/Head/Head'
-import Navbar from '@/components/Navbar/Navbar'
-import Cards from '@/components/Cards/Cards'
-import Carrousel from '@/components/Carrousell/Carrousel'
-import Footer from '@/components/Footer/Footer'
+import Cards from '@/components/Cards'
+import CardsIndex from '@/components/CardsIndex';
+import Carrousel from '@/components/CarrouselIndex'
 import Script from 'next/script'
+import Pesquisa from '@/components/pesquisa';
 
 
 
-const inter = Inter({ subsets: ['latin'] })
+
 
 export default function Home() {
   return (
-   <div>
-    
-
-    <Head/>
-    <Navbar/>
-    <Carrousel/>
-    <Cards/>
-    <Footer/>
-   
+    <div>
 
 
-    <Script/>
-   </div>
-    
-  )
+      <img className="img-fluid" src="../Img/Chile.png" alt="Chile" />
+      <Carrousel />
+      <Pesquisa/>
+      
+      <Cards />
+
+
+     <CardsIndex/>
+      
+      <Script />
+
+      
+    </div>
+
+  );
 }
+
