@@ -80,6 +80,9 @@ export default function Script() {
       slider.style.left = count + "px";
   }
 }, []);
+
+
+
   return (
     <div>
 
