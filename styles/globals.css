@@ -487,3 +487,17 @@ head {
 
   }
 }
+
+/* tema Dark */
+body.modo-escuro {
+  background-color:#212121;
+  color: #f5f5f5;
+}
+
+.modo-escuro  {
+  background-color: #a8a8a8 ;
+}
+header #botao-alterar-tema{
+  background: none;
+  border: none;
+}

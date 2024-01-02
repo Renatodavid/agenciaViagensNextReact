@@ -3,7 +3,7 @@ import Cards from '@/components/Cards'
 import CardsIndex from '@/components/CardsIndex';
 import Carrousel from '@/components/CarrouselIndex'
 import Script from 'next/script'
-import Pesquisa from '@/components/pesquisa';
+
 
 
 
@@ -16,7 +16,7 @@ export default function Home() {
 
       <img className="img-fluid" src="../Img/Chile.png" alt="Chile" />
       <Carrousel />
-      <Pesquisa/>
+      
       
       <Cards />
 
