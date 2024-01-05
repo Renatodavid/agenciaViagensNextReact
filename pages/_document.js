@@ -1,3 +1,4 @@
+import Script from '@/components/scripts'
 import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
@@ -8,6 +9,7 @@ export default function Document() {
         <Main />
         <NextScript />
       </body>
+      <Script/>
     </Html>
   )
 }

@@ -41,7 +41,7 @@
 /* HEADER index */
 #header {
   min-height: 90vh;
-  background-image: url("../public/img/Catedral_Santiago.jpg"); 
+ 
   background-size: cover;
   background-position: center;
   color: var(--main-color);
@@ -52,7 +52,7 @@
 
 #headerdestino {
   min-height: 90vh;
-  background-image: url("../public/img/BuziosPraia.jpg"); 
+ 
   background-size: cover;
   background-position: center;
   color: var(--main-color);
@@ -69,7 +69,7 @@
 }
 
 #pesquisa {
- background-image: url("../public/img/localização.png"); 
+ 
   background-repeat: no-repeat;
   background-position: left;
   background-size: 1.7rem;
@@ -85,7 +85,7 @@
 }
 
 #pessoas {
-  background-image: url('../public/img/pessoas.png'); 
+ 
   background-repeat: no-repeat;
   background-position: left;
   background-size: 1.7rem;
@@ -152,6 +152,35 @@ button {
   margin: auto;
 }
 
+/* rodapé */
+#footerdestino {
+  color: var(--main-color);
+  background-color: var(--tertiary-color);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3rem 3rem 1rem;
+}
+
+#footerdestino a {
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+.networks {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  margin: 60px !important;
+
+}
+
+#logoRodape {
+  width: 42%;
+  align-items: center;
+  margin: 20%;
+
+}
 
 /* cards pequenos */
 
@@ -355,6 +384,19 @@ div i {
   color: var(--primary-text-color);
 }
 
+#logo {
+  gap: 2%;
+  margin-bottom: 2%;
+
+}
+
+#form-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
 
 /* promoções */
 /* header  */

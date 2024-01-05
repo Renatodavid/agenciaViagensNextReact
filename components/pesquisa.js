@@ -1,8 +1,10 @@
 import React from 'react'
+import Script from './scripts'
 
 export default function pesquisa() {
   return (
-    
+    <>
+    <script/>
     <div className="counter-div my-1 fluid">
   <p>Adultos: </p>
   <button
@@ -51,5 +53,8 @@ export default function pesquisa() {
   </button>
 </div>
 
+    </>
   )
 }
+
+

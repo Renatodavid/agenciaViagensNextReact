@@ -1,8 +1,10 @@
+import Navbar from '@/components/Navbar'
 import React from 'react'
 
 export default function Contatos() {
   return (
     <div>
+      <Navbar/>
 <main className="container">
   <p className="fs-2 text-center"> Entre em contato conosco!</p>
   <section
@@ -75,7 +77,7 @@ export default function Contatos() {
   </section>
 </main>
 
-
+<footer/>
     </div>
   )
 }
