@@ -1,5 +1,6 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Link from 'next/link';
 
 export default function login() {
   return (
@@ -8,16 +9,16 @@ export default function login() {
 <main id="container">
   <form id="login-form">
     <div id="logo">
-      <a href="/">
+      <Link href="/">
         <img src="./img/logo_preto.png" alt="logo " style={{ width: 150 }} />
-      </a>
+        </Link>
       <div id="form-header">
-        <a id="login" href="/">
+        <Link id="login" href="/">
           Efetue Login
-        </a>
-        <a id="cadastro" href="/Cadastro">
+        </Link>
+        <Link id="cadastro" href="/Cadastro">
           Crie sua conta
-        </a>
+        </Link>
       </div>
       <div id="inputs"></div>
       <div className="input-box">
@@ -53,17 +54,16 @@ export default function login() {
     </div>
     <div id="form-footer">
       <button type="submit" id="login-button">
-        <a id="login-anchor" href="/">
+        <Link id="login-anchor" href="/">
           Login
-        </a>
+        </Link>
       </button>
       <div id="esqueceu-senha">
-        <a href="#">Esqueceu sua senha?</a>
+        <Link href="#">Esqueceu sua senha?</Link>
       </div>
     </div>
   </form>
 </main>
-
 </>
   )
 }

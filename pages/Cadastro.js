@@ -12,7 +12,7 @@ export default function Cadastro() {
       <img src="../img/logo_preto.png" id="logocadastro" alt="renatour" />
       <h2 className="text-center">Cadastre-se</h2>
       <div className="form-group">
-        <label htmlFor="primeiro_nome">Primeiro Nome:</label>
+        <label htmlFor="primeiro_nome"> Nome Completo:</label>
         <input
           type="text"
           className="form-control"

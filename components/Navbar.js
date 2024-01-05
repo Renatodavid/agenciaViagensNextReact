@@ -14,7 +14,6 @@ export default function Navbar() {
             className=" st teste-img"
             src="img/logo_branco.png"
             alt="logo do projeto"
-           
           />
         </Link>
         <button

@@ -3,8 +3,11 @@ import Carrousel from '@/components/CarrouselIndex'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
+
+
 export default function Home() {
   return (
+    
     <div >
       <img className="img-fluid" src="../img/Chile.png" alt="Chile" />
       <Carrousel />
@@ -58,8 +61,8 @@ export default function Home() {
 </div>
       </>
       <Cards/>
+    
     </div>
-
   );
 }
 

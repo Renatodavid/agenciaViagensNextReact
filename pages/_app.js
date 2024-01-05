@@ -5,6 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
+
+
 export default function App({ Component, pageProps }) {
   
   return (
@@ -15,7 +17,7 @@ export default function App({ Component, pageProps }) {
       <Component {...pageProps} />
       <Footer />
      
-
+     
     </>
     
   )

@@ -1,5 +1,6 @@
 import React from 'react'
 import footerCss from '@/styles/Footer.module.css'
+import Link from 'next/link';
 
 export default function Footer() {
     return (
@@ -9,7 +10,7 @@ export default function Footer() {
             <div className="container-fluid row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-3">
                 <div className="col text-center" id="contact-info">
                     <div className="footer-brand mt-1">
-                        <a className="navbar-brand" href="#">
+                        <Link className="navbar-brand" href="#">
                             <img
                                 className=" st teste-img"
                                 src="img/logo_branco.png"
@@ -17,7 +18,7 @@ export default function Footer() {
                               
                                
                             />
-                        </a>
+                        </Link>
                         <hr />
                     </div>
                     <p>
@@ -33,11 +34,11 @@ export default function Footer() {
                 <div className="col mt-5 text center">
                     <h4 className="mt-4 my-5 text-center">Outros serviços</h4>
                     <nav className="text-center">
-                        <a href="#">Propriedade intelecutal</a>
+                        <Link href="#">Propriedade intelecutal</Link>
                         <hr />
-                        <a href="#">LGPD</a>
+                        <Link href="#">LGPD</Link>
                         <hr />
-                        <a href="#">Direito internacional</a>
+                        <Link href="#">Direito internacional</Link>
                     </nav>
                 </div>
                 <div className="col mt-5  ">

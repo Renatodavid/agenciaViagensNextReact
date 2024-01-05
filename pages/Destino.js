@@ -1,5 +1,4 @@
 import CarrouselDestino from '@/components/CarrouselDestino'
-
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -570,7 +569,6 @@ export default function Destino() {
   </div>
   <hr />
 <footer/>
-
 </>
   )
 }
