@@ -418,12 +418,7 @@ export default function Cards() {
     </div>
   </div>
   <div className="col-md-12 text-center mt-4">
-    <button type="button" className="botaop" onclick="prev()">
-      Anterior
-    </button>
-    <button type="button" className="botaop" onclick="next()">
-      Próximo
-    </button>
+  
   </div>
 </>
 </>

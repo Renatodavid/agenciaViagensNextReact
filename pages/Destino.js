@@ -560,14 +560,9 @@ export default function Destino() {
     </div>
   </div>
   <div className="col-md-12 mt-5 text-center">
-    <button type="button" className="botaop" onclick="prev()">
-      Anterior
-    </button>
-    <button type="button" className="botaop" onclick="next()">
-      Próximo
-    </button>
+
   </div>
-  <hr />
+  
 <footer/>
 </>
   )

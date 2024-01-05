@@ -5,6 +5,7 @@
   margin: 0;
   font-family: 'Courier New', Courier, monospace;
 }
+
 :root {
   --main-color: #ffffff;
   --primary-text-color: #000000;
@@ -15,6 +16,7 @@
   -moz-box-shadow: inset 10px 10px 160px 0px rgba(112, 15, 121, 0.37);
   box-shadow: inset 10px 10px 160px 0px rgba(112, 15, 121, 0.37);
 }
+
 /* padronizado */
 .botaop {
   transition: 0.4s;
@@ -41,7 +43,7 @@
 /* HEADER index */
 #header {
   min-height: 90vh;
- 
+
   background-size: cover;
   background-position: center;
   color: var(--main-color);
@@ -52,7 +54,7 @@
 
 #headerdestino {
   min-height: 90vh;
- 
+
   background-size: cover;
   background-position: center;
   color: var(--main-color);
@@ -69,7 +71,7 @@
 }
 
 #pesquisa {
- 
+
   background-repeat: no-repeat;
   background-position: left;
   background-size: 1.7rem;
@@ -85,7 +87,7 @@
 }
 
 #pessoas {
- 
+
   background-repeat: no-repeat;
   background-position: left;
   background-size: 1.7rem;
@@ -143,7 +145,7 @@ option {
 button {
   padding: 5px;
   border: 4px solid var(--secondary-text-color);
-  
+
 
 }
 
@@ -300,7 +302,7 @@ button {
 
 #inputs {
   display: flex;
-  
+
   align-items: center;
   justify-content: center;
   gap: 24px;
@@ -470,20 +472,21 @@ head {
 @media (max-width: 668px) {
 
   .botaop {
-      width: 150px;
-      height: 30px;
-     
-      align-items: center;
-      font-size: 100%;
-      text-align: center;
+    width: 150px;
+    height: 30px;
+
+    align-items: center;
+    font-size: 100%;
+    text-align: center;
 
   }
+
   .pesquisa input,
   button {
-      display: flex;
-      height: 40px;
-      text-align: center;
-      
+    display: flex;
+    height: 40px;
+    text-align: center;
+
 
   }
 }
