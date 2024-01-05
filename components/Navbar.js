@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 
@@ -8,14 +9,14 @@ export default function Navbar() {
 
     <nav className="navbar navbar-expand-lg bg-body-light" id="nav">
       <div className="container-fluid bg-nav box">
-        <a className="navbar-brand" href="#">
+        <Link className="navbar-brand" href="#">
           <img
             className=" st teste-img"
             src="img/logo_branco.png"
             alt="logo do projeto"
            
           />
-        </a>
+        </Link>
         <button
           className="navbar-toggler bg-light "
           style={{ color: "rgb(0, 0, 0)" }}
@@ -31,33 +32,39 @@ export default function Navbar() {
         <div className="collapse navbar-collapse " id="navbarSupportedContent">
           <ul className="navbar-nav m-auto me-5  mb-lg-2 fs-2 gap-5  ">
             <li className="nav-item">
-              <a className="nav-link t " href="\">
+              <Link className="nav-link t " href="\">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link t " href="\destino">
+              <Link className="nav-link t " href="\Destino">
                 {" "}
                 Destino{" "}
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link t" href="\promoçoes">
+              <Link className="nav-link t" href="\Promocoes">
                 {" "}
                 Promoções{" "}
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link t" href="\contatos">
+              <Link className="nav-link t" href="\Contatos">
                 {" "}
                 Contatos{" "}
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link t" href="\login">
+              <Link className="nav-link t" href="\Cadastro">
+                {" "}
+                Cadastro{" "}
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link t" href="\login">
                 {" "}
                 Login{" "}
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

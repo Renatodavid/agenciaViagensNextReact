@@ -3,8 +3,7 @@ import React from 'react'
 export default function CarrouselDestino() {
   return (
     <div>
-
-
+      
 <>
   <div className="container-fluid my-5">
     <h1>Pacotes especiais </h1>
@@ -136,8 +135,6 @@ export default function CarrouselDestino() {
     </div>
   </div>
 </>
-
-
     </div>
   )
 }

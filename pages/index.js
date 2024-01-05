@@ -1,6 +1,5 @@
 import Cards from '@/components/Cards'
 import Carrousel from '@/components/CarrouselIndex'
-import Script from '@/components/scripts'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -58,10 +57,7 @@ export default function Home() {
   </button>
 </div>
       </>
-      <Cards />
-      <Script />
-      <styles/>
-      
+      <Cards/>
     </div>
 
   );

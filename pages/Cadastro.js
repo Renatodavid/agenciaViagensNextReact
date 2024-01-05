@@ -1,10 +1,12 @@
+
 import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Cadastro() {
   return (
 
 <>
-  
+ 
   <form action="#" method="post" className="containerC">
     <div className="container mt-4">
       <img src="../img/logo_preto.png" id="logocadastro" alt="renatour" />
@@ -106,13 +108,13 @@ export default function Cadastro() {
         </div>
       </div>
       <div className="botoes mb-5 pb-4">
-        <a href="index.html"> </a>
+        <a href="/"> </a>
         <button type="submit" className="botaop mb-2 mt-4 ml-3">
-          <a href="index.html">Continuar </a>
+          <a href="/">Continuar </a>
         </button>
-        <a href="login.html"></a>
+        <a href="/"></a>
         <button type="button" className="botaop ml-3">
-          <a href="login.html">Voltar</a>
+          <a href="/">Voltar</a>
         </button>
       </div>
     </div>

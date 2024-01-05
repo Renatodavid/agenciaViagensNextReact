@@ -580,9 +580,7 @@ export default function CardsPromocoes() {
       </div>
     </div>
   </div>
-</>
-
-        
+</>    
     </div>
   )
 }
