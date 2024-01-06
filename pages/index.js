@@ -5,8 +5,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
-export default function Home() {
-  return (
+export default  function Home() {
+
+
+  return  (
     
     <div >
       <img className="img-fluid" src="../img/Chile.png" alt="Chile" />
