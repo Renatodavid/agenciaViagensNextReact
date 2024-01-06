@@ -121,9 +121,5 @@ export default function Cadastro() {
   </form>
 </>
 
-
-
-
-   
   )
 }

@@ -4,7 +4,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Destino() {
   return (
-   <>
+   <div >
+      <img className="img-fluid" src="../img/rio de janeiro.jpeg" alt="Rio de Janeiro" />
+ 
  <CarrouselDestino/>
   <div className="container-fluid text-center my-3">
     <h1>Principais pacotes </h1>
@@ -564,6 +566,6 @@ export default function Destino() {
   </div>
   
 <footer/>
-</>
+</div>
   )
 }
