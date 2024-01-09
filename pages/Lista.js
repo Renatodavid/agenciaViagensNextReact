@@ -4,7 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios';
 
 
-
 export default function Lista() {
   const [usuarios, setUsuarios] = useState([]);
     const [isLoading, setIsLoading]= useState(true);
@@ -53,17 +52,11 @@ export default function Lista() {
                 <td>{usuario.celular}</td>
                 <td>{usuario.senha}</td>
                 <td>{usuario.genero}</td>
-              
               </tr>
-              
                 ))}
           </tbody>
-          
         </table>
       </div>
-
-     
-     
     </>
   );
 }
