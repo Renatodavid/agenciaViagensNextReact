@@ -2,7 +2,11 @@ import CarrouselDestino from '@/components/CarrouselDestino'
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
 export default function Destino() {
+
+
+  
   return (
    <div >
       <img className="img-fluid" src="../img/rio de janeiro.jpeg" alt="Rio de Janeiro" />
@@ -562,6 +566,7 @@ export default function Destino() {
     </div>
   </div>
   <div className="col-md-12 mt-5 text-center">
+ 
 
   </div>
   

@@ -1,8 +1,30 @@
-
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { useState } from 'react';
+import { useRouter } from 'next/navigation';
+import axios from 'axios';
 
 export default function Cadastro() {
+
+  const [newUsuario, setNewUsuario] = useState({ nome: "", cpf: "", email: "", celular: "", genero: "", senha: "" });
+  const router = useRouter();
+
+  const InputChange = (value, propriedade) => {
+      setNewUsuario({
+        ...newUsuario,
+        [propriedade]:value
+      });
+  };
+  const AddUsuario = () => {
+      axios
+          .post("https://localhost:7026/api/Usuario", newUsuario)
+          .then((response) => {
+              router.push("Usuario");
+          })
+          .catch((error) => {
+              alert("Erro ao inserir Usuario:" + error);
+          });
+  };
   return (
 
 <>
@@ -12,21 +34,32 @@ export default function Cadastro() {
       <img src="../img/logo_preto.png" id="logocadastro" alt="renatour" />
       <h2 className="text-center">Cadastre-se</h2>
       <div className="form-group">
-        <label htmlFor="primeiro_nome"> Nome Completo:</label>
+        <label htmlFor="nome"> Nome Completo:</label>
         <input
           type="text"
           className="form-control"
-          id="primeiro_nome"
-          name="primeiro_nome"
+          id="nome"
+          name="nome"
+          onChange={(event) => InputChange(event.target.value,"nome")}
         />
       </div>
       <div className="form-group">
-        <label htmlFor="cpf_rg">CPF / RG:</label>
-        <input type="text" className="form-control" id="cpf_rg" name="cpf_rg" />
+        <label htmlFor="cpf">CPF:</label>
+        <input type="text"
+        className="form-control" 
+        id="cpf"
+        name="cpf"
+        onChange={(event) => InputChange(event.target.value,"cpf")}
+           />
       </div>
       <div className="form-group">
         <label htmlFor="email">E-mail:</label>
-        <input type="email" className="form-control" id="email" name="email" />
+        <input type="email" 
+        className="form-control"
+        id="email"
+        name="email" 
+        onChange={(event)=> InputChange(event.target.value,"email")}
+        />
       </div>
       <div className="form-group">
         <label htmlFor="celular">Celular:</label>
@@ -35,6 +68,7 @@ export default function Cadastro() {
           className="form-control"
           id="celular"
           name="celular"
+          onChange={(event) => InputChange(event.target.value, "celular")}
         />
       </div>
       <div className="form-group">
@@ -44,15 +78,7 @@ export default function Cadastro() {
           className="form-control"
           id="senha"
           name="senha"
-        />
-      </div>
-      <div className="form-group">
-        <label htmlFor="confirmar_senha">Confirme sua Senha:</label>
-        <input
-          type="password"
-          className="form-control"
-          id="confirmar_senha"
-          name="confirmar_senha"
+          onChange={(event) => InputChange(event.target.value,"senha")}
         />
       </div>
       <div className="form-group">
@@ -65,6 +91,7 @@ export default function Cadastro() {
             id="feminino"
             name="genero"
             defaultValue="feminino"
+            onChange={(event) => InputChange(event.target.value,"genero")}
           />
           <label className="form-check-label" htmlFor="feminino">
             Feminino
@@ -77,6 +104,7 @@ export default function Cadastro() {
             id="masculino"
             name="genero"
             defaultValue="masculino"
+            onChange={(event) => InputChange(event.target.value, "genero")}
           />
           <label className="form-check-label" htmlFor="masculino">
             Masculino
@@ -89,6 +117,7 @@ export default function Cadastro() {
             id="outros"
             name="genero"
             defaultValue="outros"
+            onChange={(event) => InputChange(event.target.value,"genero")}
           />
           <label className="form-check-label" htmlFor="outros">
             Outros
@@ -101,6 +130,7 @@ export default function Cadastro() {
             id="prefiro_nao_dizer"
             name="genero"
             defaultValue="prefiro_nao_dizer"
+            onChange={(event) => InputChange(event.target.value,"genero")}
           />
           <label className="form-check-label" htmlFor="prefiro_nao_dizer">
             Prefiro não dizer
@@ -108,13 +138,11 @@ export default function Cadastro() {
         </div>
       </div>
       <div className="botoes mb-5 pb-4">
-        <a href="/"> </a>
-        <button type="submit" className="botaop mb-2 mt-4 ml-3">
-          <a href="/">Continuar </a>
+        <button type="submit" onClick={() => AddUsuario()} className="botaop mb-2 mt-4 ml-3">
+         Continuar
         </button>
-        <a href="/"></a>
         <button type="button" className="botaop ml-3">
-          <a href="/">Voltar</a>
+          Voltar
         </button>
       </div>
     </div>

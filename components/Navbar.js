@@ -59,33 +59,38 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link t " href="\Destino">
+              <Link className="nav-link t " href="Destino">
                 {" "}
                 Destino{" "}
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link t" href="\Promocoes">
+              <Link className="nav-link t" href="Promocoes">
                 {" "}
                 Promoções{" "}
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link t" href="\Contatos">
+              <Link className="nav-link t" href="Contatos">
                 {" "}
                 Contatos{" "}
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link t" href="\Cadastro">
+              <Link className="nav-link t" href="Cadastro">
                 {" "}
                 Cadastro{" "}
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link t" href="\login">
+              <Link className="nav-link t" href="login">
                 {" "}
                 Login{" "}
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link t " href="Lista">
+                List
               </Link>
             </li>
           </ul>

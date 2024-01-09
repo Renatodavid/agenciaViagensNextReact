@@ -2,6 +2,7 @@ import React from 'react'
 
 
 export default function CardsDComentarios() {
+
   return (
     <div>
 
@@ -256,9 +257,7 @@ export default function CardsDComentarios() {
       </div>
     </div>
   </div>
-  <div className="col-md-12 mt-5 text-center">
  
-  </div>
   
 </>
     </div>
