@@ -1,6 +1,10 @@
-Este é um projeto Next.js inicializado com create-next-app.
+# Projeto Next.js Inicial
 
-Comece executando o servidor de desenvolvimento:
+Este é um projeto Next.js que foi inicializado com o create-next-app agenciaViagensNextReact
+
+## Iniciando o Servidor de Desenvolvimento
+
+Para começar, execute o seguinte comando no terminal:
 
 ```bash
 npm run dev
@@ -12,24 +16,30 @@ pnpm dev
 bun dev
 ```
 
-Abra http://localhost:3000 em seu navegador para ver o resultado.
+Abra [http://localhost:3000](http://localhost:3000) em seu navegador para visualizar o resultado.
 
-Você pode começar a editar a página modificando o arquivo pages/index.js. A página se atualiza automaticamente conforme você edita o arquivo.
+Você pode iniciar a edição da página modificando o arquivo `pages/index.js`. A página será atualizada automaticamente conforme você edita o arquivo.
 
-Rotas de API podem ser acessadas em http://localhost:3000/api/hello. Este endpoint pode ser editado em pages/api/hello.js.
+## Rotas de API
 
-O diretório pages/api é mapeado para /api/*. Arquivos neste diretório são tratados como rotas de API, em vez de páginas React.
+Rotas de API podem ser acessadas em [http://localhost:3000/api/hello](http://localhost:3000/api/hello). O endpoint correspondente pode ser editado no arquivo `pages/api/hello.js`.
 
-Este projeto utiliza next/font para otimizar e carregar automaticamente a fonte Inter, uma fonte personalizada do Google.
+O diretório `pages/api` é mapeado para `/api/*`. Os arquivos neste diretório são tratados como rotas de API, em vez de páginas React.
 
-Saiba Mais
+## Fonte Personalizada
+
+Este projeto utiliza `next/font` para otimizar e carregar automaticamente a fonte Inter, uma fonte personalizada do Google.
+
+## Saiba Mais
+
 Para aprender mais sobre o Next.js, confira os seguintes recursos:
 
-Documentação do Next.js - aprenda sobre os recursos e a API do Next.js.
-Learn Next.js - um tutorial interativo do Next.js.
-Você pode conferir o repositório do Next.js no GitHub - seu feedback e contribuições são bem-vindos!
+- [Documentação do Next.js](https://nextjs.org/docs) - aprenda sobre os recursos e a API do Next.js.
+- [Learn Next.js](https://nextjs.org/learn) - um tutorial interativo do Next.js.
+- [Repositório do Next.js no GitHub](https://github.com/vercel/next.js) - seu feedback e contribuições são bem-vindos!
 
-Implantar no Vercel
+## Implantação no Vercel
+
 A maneira mais fácil de implantar seu aplicativo Next.js é usar a plataforma Vercel, dos criadores do Next.js.
 
-Confira nossa documentação de implantação do Next.js para mais detalhes.
+Confira nossa [documentação de implantação do Next.js](https://nextjs.org/docs/deployment) para mais detalhes.
