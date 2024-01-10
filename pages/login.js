@@ -16,7 +16,7 @@ export default function login() {
         <Link id="login" href="/">
           Efetue Login
         </Link>
-        <Link id="cadastro" href="/Cadastro">
+        <Link id="cadastro" href="Cadastro">
           Crie sua conta
         </Link>
       </div>

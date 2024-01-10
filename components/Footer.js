@@ -15,8 +15,6 @@ export default function Footer() {
                                 className=" st teste-img"
                                 src="img/logo_branco.png"
                                 alt="logo do projeto"
-                              
-                               
                             />
                         </Link>
                         <hr />
@@ -45,6 +43,7 @@ export default function Footer() {
                     <div className="social-networks">
                         <h4 className="mt-4 text-center">Acompanhe nossas redes Sociais</h4>
                         <div className="networks  my-5 ">
+                            
                             <img src="../Img/facebook.png" className="f" alt="facebook" />
                             <img src="../Img/linkendin.png" className="f" alt="" />
                             <img src="../Img/whatsap.png" className="f" alt="" />

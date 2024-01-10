@@ -257,8 +257,6 @@ export default function CardsDComentarios() {
       </div>
     </div>
   </div>
- 
-  
 </>
     </div>
   )
